@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Tooltip-React-Plotline/static/css/main.d2be938d.css",
+    "main.js": "/Tooltip-React-Plotline/static/js/main.17be2376.js",
+    "static/js/787.6eb8a95e.chunk.js": "/Tooltip-React-Plotline/static/js/787.6eb8a95e.chunk.js",
+    "index.html": "/Tooltip-React-Plotline/index.html",
+    "main.d2be938d.css.map": "/Tooltip-React-Plotline/static/css/main.d2be938d.css.map",
+    "main.17be2376.js.map": "/Tooltip-React-Plotline/static/js/main.17be2376.js.map",
+    "787.6eb8a95e.chunk.js.map": "/Tooltip-React-Plotline/static/js/787.6eb8a95e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2be938d.css",
+    "static/js/main.17be2376.js"
+  ]
+}
