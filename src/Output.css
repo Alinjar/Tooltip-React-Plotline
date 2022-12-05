@@ -1,0 +1,60 @@
+
+.boxed1 {
+    border: 10px solid black ;
+    border-radius: 25px;
+    width: 100px;
+  height: 300px;
+  padding: 180px 100px;
+  top:25px;
+  right:25px;
+  float: right;
+  
+  position:relative;
+  background-color: gray;
+  }
+    
+    
+    .example-wrapper {
+      padding: 16px 120px;
+      
+    }
+    .center-button{
+      display: inline-block;  
+      top: 50%;
+      left:50%;
+      transform: translate(-50%, -50%);
+      
+      position:absolute;
+    }
+    
+    .bottom-right-button{
+      padding: 15px 15px;
+      position: absolute;
+      display: inline-block;
+      bottom: 0;
+      right: 0;
+    }
+    .bottom-left-button{
+      padding: 15px 15px;
+      position: absolute;
+      display: inline-block;
+      bottom: 0;
+      left: 0;
+    }
+    .top-right-button{
+      padding: 15px 15px;
+      position: absolute;
+      display: inline-block;
+      top: 0;
+      right: 0;
+      
+    }
+    .top-left-button{
+      padding: 15px 15px;
+      display: inline-block;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+   
+   

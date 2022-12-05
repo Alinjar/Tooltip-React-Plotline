@@ -1,0 +1,48 @@
+.boxed2 {
+    border: 5px solid rgb(52, 50, 50) ;
+    
+width: 500px;
+  height: 100px;
+  padding: 180px 100px;
+  top:135px;
+  right:25px;
+  left:25px;
+  float: left;
+  
+  position:relative;
+  background-color: gray;
+  }
+  .dropdown-controls {
+    display: inline-block;
+   
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  .dropdown-control{
+    padding:20px;
+    position:relative;
+  }
+  .new-expense__control label {
+    font-weight: bold;
+    margin-bottom: 0.2rem;
+    display: block;
+  }
+  
+  .new-expense__control input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+    position: relative;
+  }
+  
+  .new-expense__actions {
+    text-align: right;
+    position:absolute;
+    left:50%;
+    margin-bottom: 20px;
+  }

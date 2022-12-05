@@ -1,9 +1,11 @@
 import React, { useState } from "react";
+//import BuilderInput from './BuilderInput.js'
 import "./Tooltip.css";
 
 const Tooltip = (props) => {
   let timeout;
   const [active, setActive] = useState(false);
+  
 
   const showTip = () => {
     timeout = setTimeout(() => {
@@ -15,7 +17,7 @@ const Tooltip = (props) => {
     clearInterval(timeout);
     setActive(false);
   };
-
+    
   return (
     <div
       className="Tooltip-Wrapper"
@@ -30,9 +32,13 @@ const Tooltip = (props) => {
           {/* Content */}
           {props.content}
         </div>
+        
       )}
+
+      
     </div>
   );
+  
 };
 
 export default Tooltip;
