@@ -47,7 +47,7 @@ const Builder = (props) => {
         </select>
       </div>
         <div className='new-expense__control'>
-          <label>Button Text</label>
+          <label>Tooltip Text</label>
           <input
             type='text'
             name='buttontext'
